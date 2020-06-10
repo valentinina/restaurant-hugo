@@ -966,3 +966,13 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   color: #fff;
   border-color: var(--primary-color)
 }
+
+/* On smaller resolutions, hide the text for Large screens */
+@media only screen and (max-width: 960px) {
+      .largeScreen {display: none;}
+ }
+
+ /* On larger resolutions, hide the text for Small screens */
+  @media only screen and (min-width: 960px) {
+      .smallScreen {display: none;}
+ }
