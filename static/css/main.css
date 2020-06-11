@@ -1659,7 +1659,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   line-height: 1.25;
 }
 
-/* .markdown-body h1 {
+.markdown-body h1 {
   font-size: 2em;
 }
 
@@ -1688,7 +1688,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 .markdown-body h6 {
   font-size: .85em;
   color: #6a737d;
-} */
+}
 
 .markdown-body ol,
 .markdown-body ul {
