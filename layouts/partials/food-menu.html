@@ -6,12 +6,12 @@
 			<div class="col-md-12">
 				<div class="block">
 					<h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-						{{ .title | markdownify }}</h1>
+						{{ .title | markdownify | emojify }}</h1>
 					<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-						{{ .description | markdownify }}</p>
+						{{ .description | markdownify | emojify }}</p>
 					<div class="pricing-list">
 						<div class="title">
-							<h3>{{ .subtitle | markdownify }}</h3>
+							<h3>{{ .subtitle | markdownify | emojify }}</h3>
 						</div>
 						<ul>
 							{{ range .pricing_item }}

@@ -10,7 +10,7 @@
 							{{ range $.Site.Params.footer.contactItem }}
 							<li>
 								<h4><i class="{{.icon}}"></i>{{ .title }}</h4>
-								<p>{{ .content | markdownify }}</p>
+								<p>{{ .content | markdownify | emojify }}</p>
 							</li>
 							{{end}}
 						</ul>
@@ -67,7 +67,7 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<div class="block">
-					<p>{{ .Site.Params.copyright | markdownify }}</p>
+					<p>{{ .Site.Params.copyright | markdownify | emojify }}</p>
 				</div>
 			</div>
 		</div>
